@@ -1,0 +1,112 @@
+body{
+
+}
+
+.jumbotron_header {
+  	background: url(header.jpg) center center;
+	background-size: cover;
+	width: 100%;
+    height: 322px;
+	overflow: hidden;
+    
+}
+@media(max-width:700px){
+.jumbotron_header {
+  	background: url(header.jpg) center center;
+	background-size: cover;
+	width: 100%;
+    height: 200px;
+	overflow: hidden;
+    
+	}	
+	
+	
+	
+		
+}
+
+.jumbotron_twitch {
+  	text-align: center;
+    
+}
+
+
+.page-header
+{
+	text-align: center;
+	
+	
+}
+
+.thumbnail
+{
+	text-align:center;
+	
+}
+
+
+.row {
+	
+    border:0;
+    box-shadow:0;
+    border-radius:0;
+	
+}
+.tusk {
+    background: url("tusk.png") no-repeat scroll 0 0 transparent;
+    height: 100px;
+    width: 67%; 
+    left: -321px; 
+    position: absolute; 
+    top: 84x;     
+    z-index: 2; 
+}
+@media(max-width:900px){
+	.tusk{
+		
+	display:none !important;
+		
+	}
+	
+}
+.img-responsive
+{
+	
+	height:90%;
+	width:90%;
+
+}
+.list
+{
+background-color: #0e1213;
+text-align:center;	
+	
+}
+@media(max-width:1200px){
+	.list h3{
+		
+	display:none;
+		
+	}
+	
+}
+#player{
+	top: 10px;
+	width:752px;
+	height:430px;
+	
+}
+#chat_embed
+{
+	top: 10px;
+	left: 800px;
+	width:300px;
+	height:600px;
+	
+}
+@media screen and (max-width: 885px) {
+    .container-fluid {
+        font-size:16px !important;
+    }
+}
+

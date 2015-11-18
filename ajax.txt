@@ -1,0 +1,19 @@
+
+/*	
+$.ajax({
+	url:'https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key=25979733F821EB88E73D92A3D3AF93FB&account_id=75765494&matches_requested=1',
+	dataType: 'json',
+	type: 'get',
+	cache: false,
+	success: function(data) {
+	
+	  $('#match_id').append(JSON.stringify(data));
+	  $('#hero_id').append(JSON.stringify(data));
+	
+
+	
+	
+	
+	
+	}*/
+	
